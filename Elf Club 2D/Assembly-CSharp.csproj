@@ -45,15 +45,28 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Assets\Scripts\ActivateWeaponHitbox.cs" />
-     <Compile Include="Assets\Assets\Scripts\BasicWeaponBehaviour.cs" />
-     <Compile Include="Assets\Assets\Scripts\PlayerAttack.cs" />
-     <Compile Include="Assets\Assets\Scripts\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\Player\BasicWeaponBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerAttack.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+     <Compile Include="Assets\Scripts\UI\BackToMenu.cs" />
+     <Compile Include="Assets\Scripts\UI\InitCanvas.cs" />
+     <Compile Include="Assets\Scripts\UI\InitPlayer.cs" />
+     <Compile Include="Assets\Scripts\UI\LoadCharacterSelect.cs" />
+     <Compile Include="Assets\Scripts\UI\MoveImage.cs" />
+     <Compile Include="Assets\Scripts\UI\SaveSelection.cs" />
+     <Compile Include="Assets\Scripts\UI\SelectCharacter.cs" />
+     <Compile Include="Assets\Scripts\UI\ShowStuff.cs" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>C:/apps/unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/apps/unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/apps/unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/apps/unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/apps/unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>
