@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SaveSelection : MonoBehaviour {
 
-    public static int[] selectedCharc;
+    public int[] selectedCharc;
 
 	// Use this for initialization
 	void Start () {
